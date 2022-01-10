@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Vježba 12 (forme)</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Kristijan Turković">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+<body>
+	<form>
+		<label for="ime">Ime*</label>
+		<br>
+		<input type="text" id="ime" name="ime" required placeholder="Vaše ime...">
+		<br>
+		<label for="prez">Prezime*</label>
+		<br>
+		<input type="text" id="prez" name="prez" required placeholder="Vaše prezime...">
+		<br>
+		<label for="mail">E-mail*</label>
+		<br>
+		<input type="email" id="mail" name="mail" required placeholder="Vaša e-mail adresa...">
+		<br>
+		<label for="drzava">Država:</label>
+		<br>
+		<select id="drzava" name="drzava">
+			<option value=""selected >Molimo odaberite</option>
+			<option value="HR">Hrvatska</option>
+			<option value="BA">BiH</option>
+			<option value="RS">Srbija</option>
+			<option value="SI">Slovenija</option>
+			<option value="GB">Britanija</option>
+			<option value="DE">Njemačka</option>
+			<option value="US">SAD</option>
+			<option value="ES">Španjolska</option>
+		</select>
+		<br>
+		<label for="poruka">Poruka:</label>
+		<br>
+		<textarea id="poruka" name="poruka" rows="5" cols="21" placeholder="Napiši nešto..."></textarea>
+		<br>
+		<input type="submit" value="Pošalji">
+		<input type="reset" value="Resetiraj">
+	</form>
+</body>
+</html>
