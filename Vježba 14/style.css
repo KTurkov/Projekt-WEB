@@ -1,0 +1,18 @@
+h1 
+	{font-family: Verdana,Helvetica,sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	}
+	
+p
+	{font-family: Verdana,Helvetica,sans-serif;
+	font-size: 12px;
+	}
+	
+#citat
+	{font-style: italic;
+	font-weight: bold;
+	border: 1px solid;
+	padding: 6px;
+	background-color: #FFFFCC;
+	}
